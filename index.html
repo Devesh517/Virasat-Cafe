@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artisan Café - Premium Coffee Experience</title>
+    <link rel="stylesheet" href="./HTML Activity/ind.css">
+</head>
+<body>
+    <!-- Loader -->
+    <div class="loader" id="loader">
+        <div class="coffee-cup"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="logo">☕ Virasat Café</a>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#menu" class="nav-link">Menu</a></li>
+                <li><a href="#specials" class="nav-link">Specials</a></li>
+                <!-- <li><a href="#gallery" class="nav-link">Gallery</a></li> -->
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1 class="fade-in">Welcome to Virasat Café</h1>
+            <p class="hero-subtitle fade-in">Where Every Cup Tells a Story</p>
+            <a href="#menu" class="cta-button">Explore Our Menu</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <h2 class="section-title fade-in">Our Story</h2>
+            <div class="about-content fade-in">
+                <div class="about-text">
+                    <p>At Virasat Café, we believe every sip tells a story. Rooted in India’s rich traditions and inspired by its diverse flavors, our café is more than just a place to eat and drink – it’s an experience of culture, comfort, and connection.</p>
+                    <p>From the aroma of kadak chai in clay cups to the soothing richness of authentic filter coffee, and from baked delights to desi snacks with a modern twist, Virasat Café is where tradition meets taste.</p>
+                    <p>Whether you’re here for a quick chai break, a soulful conversation with friends, or to discover the magic of India’s culinary heritage, we welcome you to be a part of our story – a story brewed with love, warmth, and a touch of nostalgia.</p>
+                    <p>✨ Virasat Café – Where Taste Meets Tradition.</p>
+                </div>
+                <div class="about-image">
+                    <!-- <div style="height: 400px; background: linear-gradient(135deg, var(--primary), var(--gold)); display: flex; align-items: center; justify-content: center; color: white; font-size: 4rem;">☕</div> -->
+                    <img src="./HTML Activity/Gemini_Generated_Image_fe2c0bfe2c0bfe2c.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section class="menu" id="menu">
+  <div class="container">
+    <h2 class="section-title fade-in">Our Menu</h2>
+
+    <!-- Beverages -->
+    <h3 class="menu-category">☕ Beverages</h3>
+    <div class="menu-grid">
+      <div class="menu-card fade-in">
+        <div class="menu-image">☕</div>
+        <div class="menu-content">
+          <h3 class="menu-item-name">Signature Espresso</h3>
+          <p class="menu-item-desc">Rich, bold, and perfectly balanced espresso shot</p>
+          <span class="menu-item-price">₹150</span>
+        </div>
+      </div>
+      <div class="menu-card fade-in">
+        <div class="menu-image">🥤</div>
+        <div class="menu-content">
+          <h3 class="menu-item-name">Iced Latte</h3>
+          <p class="menu-item-desc">Refreshing cold brew with creamy milk</p>
+          <span class="menu-item-price">₹220</span>
+        </div>
+      </div>
+      <div class="menu-card fade-in">
+        <div class="menu-image">🍵</div>
+        <div class="menu-content">
+          <h3 class="menu-item-name">Artisan Tea</h3>
+          <p class="menu-item-desc">Selection of premium loose-leaf teas</p>
+          <span class="menu-item-price">₹120</span>
+        </div>
+      </div>
+
+      <!-- Hidden Items -->
+      <div class="menu-card fade-in hidden-item">
+        <div class="menu-image">☕</div>
+        <div class="menu-content">
+          <h3 class="menu-item-name">Tandoori Chai</h3>
+          <p class="menu-item-desc">Smoky hot kulhad chai with a rustic aroma</p>
+          <span class="menu-item-price">₹80</span>
+        </div>
+      </div>
+      <div class="menu-card fade-in hidden-item">
+        <div class="menu-image">☕</div>
+        <div class="menu-content">
+          <h3 class="menu-item-name">Filter Coffee</h3>
+          <p class="menu-item-desc">South Indian strong filter coffee</p>
+          <span class="menu-item-price">₹100</span>
+        </div>
+      </div>
+    </div>
+    <button class="view-more-btn" onclick="toggleMenu(this)">View More</button><br>
+
+    <!-- Snacks & Starters -->
+    <h3 class="menu-category">🥪 Snacks & Starters</h3>
+    <div class="menu-grid">
+      <div class="menu-card fade-in">
+        <div class="menu-image">🥪</div>
+        <div class="menu-content">
+          <h3 class="menu-item-name">Bun Maska</h3>
+          <p class="menu-item-desc">Classic Irani bun with butter</p>
+          <span class="menu-item-price">₹90</span>
+        </div>
+      </div>
+      <div class="menu-card fade-in">
+        <div class="menu-image">🍜</div>
+        <div class="menu-content">
+          <h3 class="menu-item-name">Masala Maggie</h3>
+          <p class="menu-item-desc">Street-style spicy Maggi noodles</p>
+          <span class="menu-item-price">₹120</span>
+        </div>
+      </div>
+      <div class="menu-card fade-in">
+        <div class="menu-image">🥙</div>
+        <div class="menu-content">
+          <h3 class="menu-item-name">Paneer Wrap</h3>
+          <p class="menu-item-desc">Soft wrap stuffed with spiced paneer</p>
+          <span class="menu-item-price">₹180</span>
+        </div>
+      </div>
+
+      <!-- Hidden Items -->
+      <div class="menu-card fade-in hidden-item">
+        <div class="menu-image">🥔</div>
+        <div class="menu-content">
+          <h3 class="menu-item-name">Vada Pav</h3>
+          <p class="menu-item-desc">Mumbai’s favorite spicy potato vada in pav</p>
+          <span class="menu-item-price">₹60</span>
+        </div>
+      </div>
+      <div class="menu-card fade-in hidden-item">
+        <div class="menu-image">🍕</div>
+        <div class="menu-content">
+          <h3 class="menu-item-name">Cheese Kulcha</h3>
+          <p class="menu-item-desc">Soft kulcha filled with gooey cheese</p>
+          <span class="menu-item-price">₹150</span>
+        </div>
+      </div>
+    </div>
+    <button class="view-more-btn" onclick="toggleMenu(this)">View More</button><br>
+
+    <!-- Desserts -->
+    <h3 class="menu-category">🍰 Desserts</h3>
+    <div class="menu-grid">
+      <div class="menu-card fade-in">
+        <div class="menu-image">🍰</div>
+        <div class="menu-content">
+          <h3 class="menu-item-name">Chocolate Cake</h3>
+          <p class="menu-item-desc">Decadent chocolate cake with ganache</p>
+          <span class="menu-item-price">₹220</span>
+        </div>
+      </div>
+      <div class="menu-card fade-in">
+        <div class="menu-image">🍮</div>
+        <div class="menu-content">
+          <h3 class="menu-item-name">Rasmalai Tres Leches</h3>
+          <p class="menu-item-desc">Fusion of Indian rasmalai & Spanish cake</p>
+          <span class="menu-item-price">₹280</span>
+        </div>
+      </div>
+      <div class="menu-card fade-in">
+        <div class="menu-image">🍦</div>
+        <div class="menu-content">
+          <h3 class="menu-item-name">Matka Kulfi</h3>
+          <p class="menu-item-desc">Traditional kulfi served in earthen pot</p>
+          <span class="menu-item-price">₹100</span>
+        </div>
+      </div>
+
+      <!-- Hidden Items -->
+      <div class="menu-card fade-in hidden-item">
+        <div class="menu-image">🥧</div>
+        <div class="menu-content">
+          <h3 class="menu-item-name">Gulab Jamun Cheesecake</h3>
+          <p class="menu-item-desc">Cheesecake topped with gulab jamun</p>
+          <span class="menu-item-price">₹250</span>
+        </div>
+      </div>
+      <div class="menu-card fade-in hidden-item">
+        <div class="menu-image">🍩</div>
+        <div class="menu-content">
+          <h3 class="menu-item-name">Rabri Jalebi</h3>
+          <p class="menu-item-desc">Hot jalebi served with creamy rabri</p>
+          <span class="menu-item-price">₹180</span>
+        </div>
+      </div>
+    </div>
+    <button class="view-more-btn" onclick="toggleMenu(this)">View More</button><br>
+  </div>
+</section>
+
+    <!-- Specials Section -->
+    <section class="specials" id="specials">
+        <div class="container">
+            <h2 class="section-title fade-in">Today's Specials</h2>
+            <div class="specials-carousel">
+                <div class="special-card">
+                    <span class="special-badge">Limited Time</span>
+                    <h3>Pumpkin Spice Latte</h3>
+                    <p>Seasonal favorite with real pumpkin and warming spices + Chocolate Pastry</p>
+                    <p style="font-size: 1.5rem; color: var(--gold); margin-top: 1rem;">₹550</p>
+                </div>
+                <div class="special-card">
+                    <span class="special-badge">New Arrival</span>
+                    <h3>Matcha Madness</h3>
+                    <p>Premium Japanese matcha with your choice of milk</p>
+                    <p style="font-size: 1.5rem; color: var(--gold); margin-top: 1rem;">₹200</p>
+                </div>
+                <div class="special-card">
+                    <span class="special-badge">Chef's Special</span>
+                    <h3>Brunch Combo</h3>
+                    <p>Any coffee + pastry of your choice</p>
+                    <p style="font-size: 1.5rem; color: var(--gold); margin-top: 1rem;">₹350</p>
+                </div>
+                <div class="special-card">
+                    <span class="special-badge">Chef's Special</span>
+                    <h3>Brunch Combo</h3>
+                    <p>Any coffee + pastry of your choice</p>
+                    <p style="font-size: 1.5rem; color: var(--gold); margin-top: 1rem;">₹350</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <!-- <section class="gallery" id="gallery">
+        <div class="container">
+            <h2 class="section-title fade-in">Gallery</h2>
+            <div class="gallery-grid">
+                <div class="gallery-item fade-in"></div>
+                <div class="gallery-item fade-in"></div>
+                <div class="gallery-item fade-in"></div>
+                <div class="gallery-item fade-in"></div>
+                <div class="gallery-item fade-in"></div>
+                <div class="gallery-item fade-in"></div>
+            </div>
+        </div>
+    </section> -->
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2 class="section-title fade-in">Get In Touch</h2>
+            <div class="contact-container">
+                <div class="contact-info fade-in">
+                    <div class="info-item">
+                        <div class="info-icon">📍</div>
+                        <div>
+                            <h3>Visit Us</h3>
+                            <p>Pansheel B Block near Dainik Bhaskar Ajmer</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-icon">📞</div>
+                        <div>
+                            <h3>Call Us</h3>
+                            <p>+916350537767</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-icon">✉️</div>
+                        <div>
+                            <h3>Email Us</h3>
+                            <p>devdhanwani15@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-icon">🕐</div>
+                        <div>
+                            <h3>Opening Hours</h3>
+                            <p>Mon-Fri: 7AM - 8PM<br>Sat-Sun: 8AM - 9PM</p>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form fade-in" onsubmit="handleSubmit(event)">
+                    <div class="form-group">
+                        <label for="name">Your Name</label>
+                        <input type="text" id="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" rows="4" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <h2 style="color: var(--gold); margin-bottom: 1rem;">Virasat Café</h2>
+            <p>Crafting moments, one cup at a time</p>
+            <div class="social-links">
+                <a href="#" class="social-link">f</a>
+                <a href="#" class="social-link">t</a>
+                <a href="#" class="social-link">i</a>
+                <a href="#" class="social-link">y</a>
+            </div>
+            <div class="hours">
+                <h3>Opening Hours</h3>
+                <ul class="hours-list">
+                    <li>Monday - Friday: 7:00 AM - 8:00 PM</li>
+                    <li>Saturday: 8:00 AM - 9:00 PM</li>
+                    <li>Sunday: 8:00 AM - 9:00 PM</li>
+                </ul>
+            </div>
+            <p style="margin-top: 2rem; opacity: 0.8;">© 2024 Virasat Café. All rights reserved. </p>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <div class="back-to-top" id="backToTop">↑</div>
+
+    <script src="./HTML Activity/ind.js"></script>
+</body>
+</html>
