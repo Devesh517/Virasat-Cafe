@@ -28,7 +28,7 @@ Built using **HTML, CSS, and JavaScript**.
 
 ### Clone the Repository
 ```bash
-git clone https://github.com/your-username/virasat-cafe.git
+git clone https://github.com/Devesh517/Virasat-Cafe.git
 cd virasat-cafe
 
 ## 🌐 Live Demo
