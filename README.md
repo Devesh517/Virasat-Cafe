@@ -26,11 +26,15 @@ Built using **HTML, CSS, and JavaScript**.
 
 ## 🚀 Getting Started
 
+---
+## 🌐 Live Demo
+👉 [Visit Virasat Cafe Website]
+https://devesh517.github.io/Virasat-Cafe/
+
+---
 ### Clone the Repository
 ```bash
 git clone https://github.com/Devesh517/Virasat-Cafe.git
 cd virasat-cafe
 
-🌐 Live Demo
-👉 [Visit Virasat Cafe Website]
-https://devesh517.github.io/Virasat-Cafe/
+
