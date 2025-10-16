@@ -8,7 +8,7 @@ Built using **HTML, CSS, and JavaScript**.
 ---
 
 ## 🌟 Features
-- 🖼️ **Landing Page** with hero section introducing Virasat Café  
+- 🖼️ **Landing Page** with home section introducing Virasat Café  
 - 📖 **About Section** – Story and vision behind the café  
 - 🍴 **Menu Section** – Curated café specials with elegant styling  
 - 📸 **Gallery Section** – Showcase of food, ambiance, and café vibes  
