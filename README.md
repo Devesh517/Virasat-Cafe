@@ -35,6 +35,6 @@ https://devesh517.github.io/Virasat-Cafe/
 ### Clone the Repository
 ```bash
 git clone https://github.com/Devesh517/Virasat-Cafe.git
-cd virasat-cafe
+
 
 
